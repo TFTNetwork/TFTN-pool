@@ -1,9 +1,6 @@
 {
     "coin": "TFTN",
     "symbol": "TFTN",
-    "coinUnits": 2000000000000000,
-    "coinDifficultyTarget": 180,
-
     "logging": {
         "files": {
             "level": "info",
