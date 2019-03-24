@@ -5,7 +5,7 @@ TFTN pool (cryptonote-forknote-pool)
 https://github.com/forknote/forknote-pool/issues/48**
 
 
-High performance Node.js (with native C addons) mining pool for Cryptonote based coins, created with the Forknote software such as Bytecoin, Dashcoin, etc..
+High performance Node.js (with native C addons) mining pool for Cryptonote based coins, created with the Forknote software such as Bytecoin, TFTN, etc..
 
 Comes with lightweight example front-end script which uses the pool's AJAX API.
 
@@ -356,6 +356,8 @@ Variable explanations:
 
 /* Must point to the API setup in your config.json file. */
 var api = "http://poolhost:8117";
+
+var api_blockexplorer = "http://poolhost:14316";
 
 /* Pool server host to instruct your miners to point to.  */
 var poolHost = "poolhost.com";
