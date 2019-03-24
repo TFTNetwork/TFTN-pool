@@ -125,7 +125,7 @@ npm update
 
 #### 2) Configuration
 
-
+```bash
 {
     "coin": "TFTN",
     "symbol": "TFTN",
